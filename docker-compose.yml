@@ -9,7 +9,7 @@ services:
 
     build: server/
 
-    command: python ./server.py
+    command: python3 ./server.py
 
     ports:
       - "8080:8080"
